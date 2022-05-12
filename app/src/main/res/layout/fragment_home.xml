@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Levantamiento de areas"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#8E4BBF"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion:"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/txtDescrip"
+        android:backgroundTint="#8E4BBF"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Division:"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:backgroundTint="#8E4BBF"
+        android:id="@+id/txtDivis"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad de empleados:"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:backgroundTint="#8E4BBF"
+        android:id="@+id/txtCantidad"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva area"
+        android:id="@+id/btnInsertar"
+        android:textColor="@color/white"
+        android:background="#8E4BBF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una descripcion para editar o eliminar"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listaHome"
+        />
+
+</LinearLayout>

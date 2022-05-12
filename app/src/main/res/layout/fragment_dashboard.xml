@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA POR AREAS"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#8E4BBF"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA POR DESCRIPCION"
+        android:id="@+id/btnDescrip"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA POR DIVISION"
+        android:id="@+id/btnDivision"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA POR SUBDEPARTAMENTOS"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#8E4BBF"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA POR IDEDFICIO"
+        android:id="@+id/btnidEdficio"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA CON DESCRIPCION DE AREA"
+        android:id="@+id/btnDecArea"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTA CON DIVISION DE AREA"
+        android:id="@+id/btnDivArea"
+        />
+
+    <ListView
+        android:id="@+id/listaBusqueda1"
+        android:layout_width="366dp"
+        android:layout_height="150dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listaBusqueda2"
+        />
+
+</LinearLayout>

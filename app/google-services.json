@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986916896991",
+    "project_id": "ladm-u3-p2-saga",
+    "storage_bucket": "ladm-u3-p2-saga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986916896991:android:285d4ffba5bfeb9a89296a",
+        "android_client_info": {
+          "package_name": "com.example.ladm_u3_p2_firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986916896991-vrq6s28rhslr2f3032altb1jt92k92la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb-6BpEVQ_2ngxiRHP1ZDiIoZrg9u-wIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986916896991-vrq6s28rhslr2f3032altb1jt92k92la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subdepartamentos"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:background="#8E4BBF"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IDEdificio:"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/txtidEdficio"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Piso:"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/txtPiso"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IDArea:"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/txtidAreaS"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:id="@+id/btninsertarSub"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listaSub"
+        />
+</LinearLayout>
